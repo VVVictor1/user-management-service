@@ -1,0 +1,22 @@
+{
+  "name": "onlineplatform",
+  "version": "1.0.0",
+  "description": "Service for managing users in an online platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "user-management",
+    "service",
+    "platform"
+  ],
+  "author": "Victor Valah",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.6.3"
+  }
+}
